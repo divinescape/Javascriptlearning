@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<head>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body bgcolor="yellow">
+    <div id="main" class="hide">
+        <form id ="questioncleared">
+        <p>What is your first name?</p>
+        <input type="text" id="type1">
+        <p> What is the lightest color?</p>
+        <input list="browsers" id="type2" name="browsers">
+        <datalist id="browsers">
+                <option value="White">
+                <option value="Trump">
+                <option value="Shark">
+                <option value="Death">
+                <option value="Blue">
+                <option value="Obama">
+                <option value="550">
+                <option value="600">
+              </datalist>
+        <p> What is 5(120)?</p>
+        <input list="browsers" id="type3">
+        <p> Who is the current President?</p>
+        <input list="browsers" id="type4">
+        <p>What do most people fear when they are swimming in the ocean?</p>
+        <input list="browsers" id="type5">
+        </form>
+        <button onclick =" AreControlsEmpty();" >Submit</button>
+        <p id ="list"></p>
+    </div>
+    <div id="main1" class="hide">
+            <form id ="questioncleared">
+            <p>What is your first name</p>
+            <input type="text" id="type6">
+            <datalist id="browsers">
+                    <option value="White">
+                    <option value="Trump">
+                    <option value="Shark">
+                    <option value="Death">
+                    <option value="Blue">
+                    <option value="Obama">
+                    <option value="550">
+                    <option value="600">
+                  </datalist>
+            <p> What is the lightest color?</p>
+            <input list="browsers" id="type7">
+            <p> What is 5(120)?</p>
+            <input list="browsers" id="type8">
+            <p> Who is the current President?</p>
+            <input list="browsers" id="type9">
+            <p>What do most people fear when they are swimming in the ocean?</p>
+            <input list="browsers" id="type10">
+            </form>
+
+            <button onclick="AreControlsEmpty1()">Submit</button>
+            <p id ="list"></p>
+        </div>
+        <div id ="hidegridid"class="hidegrid">
+            <div id="winnerbox">
+                <p id="winner">Winner: <span id="winner1"></span></p>
+            </div>
+            <div id="loserbox">
+                <p id="loser">Loser: <span id="loser1"></span></p>
+            </div>
+                <p id="user1"></p>
+                <p id="user2"></p>
+            </div>
+        <p id="instructions" class="instructionsclass">For this game you need two players to play the game.</p>
+    <button onclick ="unhide(this, 'main')" class="gamestart">Play Game</button>
+    <div id="tieinformation" class="show">
+    <div id="color"></div>
+    <p id="tie"></p>
+</div>
+
+
+
+                <div id="main3" class="hide">
+        <form id ="questioncleared">
+            <div class="user_1"></div>
+        <p> What year was runescape created?</p>
+        <input list="browsers1" id="type11" name="browsers1">
+        <datalist id="browsers1">
+                <option value="1999">
+                <option value="1080">
+                <option value="Golf">
+                <option value="Cheer">
+                <option value="1070">
+                <option value="Scream">
+                <option value="cry">
+                <option value="600">
+              </datalist>
+        <p> What is 9(120)?</p>
+        <input list="browsers1" id="type12">
+        <p> What is chases favorite sport?</p>
+        <input list="browsers1" id="type13">
+        <p>What do most people do when they are riding on a  roller coaster?</p>
+        <input list="browsers1" id="type14">
+        </form>
+        <button onclick =" AreControlsEmpty2();" >Submit</button>
+        <p id ="list"></p>
+    </div>
+
+    <div id="main4" class="hide">
+            <form id ="questioncleared">
+                <div class="user_1"></div>
+            <p> What year was runescape created?</p>
+            <input list="browsers1" id="type15" name="browsers1">
+            <datalist id="browsers1">
+                    <option value="1999">
+                    <option value="1080">
+                    <option value="Golf">
+                    <option value="Cheer">
+                    <option value="1070">
+                    <option value="Scream">
+                    <option value="cry">
+                    <option value="600">
+                  </datalist>
+            <p> What is 9(120)?</p>
+            <input list="browsers1" id="type16">
+            <p> What is chases favorite sport?</p>
+            <input list="browsers1" id="type17">
+            <p>What do most people do when they are riding on a  roller coaster?</p>
+            <input list="browsers1" id="type18">
+            </form>
+            <button onclick =" AreControlsEmpty3();" >Submit</button>
+            <p id ="list"></p>
+        </div>
+
+        <div id ="hidegridid"class="hidegrid">
+                <div id="winnerbox">
+                    <p id="winner">Winner: <span id="winner1"></span></p>
+                </div>
+                <div id="loserbox">
+                    <p id="loser">Loser: <span id="loser1"></span></p>
+                </div>
+                    <p id="user1"></p>
+                    <p id="user2"></p>
+                </div>
+    <button id = "restartbutton" onclick="unhide(this, 'main3'); tiesheetinformation() " class="hide">Restart</button>
+<p id ="check"></p>
+    <script src="javascript.js"></script>
+</body>
